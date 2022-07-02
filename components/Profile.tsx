@@ -7,7 +7,7 @@ const Profile = ({ personalInformation, socialMedias }: any) => {
       <div className="flex flex-col items-center">
         <div id="avatar" className="mt-10 mx-5">
           <img
-            src="/2076833.jfif"
+            src="/profile.png"
             className="rounded-full ring-8 ring-light-black"
             alt="Alessandro Mancini"
           ></img>

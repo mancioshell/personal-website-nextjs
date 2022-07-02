@@ -21,7 +21,7 @@ const About = ({ personalInformation, summary, languages }: any) => {
       <figure className="mt-4 flex flex-wrap">
         <img
           className="rounded-xl lg:basis-1/3 mx-auto"
-          src="/2076833.jfif"
+          src="/profile.png"
           alt="Alessandro Mancini"
         ></img>
         <div className="flex flex-col pt-2 lg:p-8 lg:basis-2/3">
