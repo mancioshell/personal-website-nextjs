@@ -1,0 +1,40 @@
+query skills {
+  resume {
+    data {
+      id
+      attributes {
+        programmingLanguages {
+          data {
+            attributes {
+              name
+              level
+            }
+          }
+        }
+        softSkills {
+          name
+        }
+        professionalSkills {
+          name
+        }
+        languages {
+          data {
+            attributes {
+              name
+              level
+              initial
+              logo {
+                data {
+                  attributes {
+                    formats
+                    url
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

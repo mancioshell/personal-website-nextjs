@@ -1,0 +1,54 @@
+query profile {
+  resume {
+    data {
+      id
+      attributes {
+        about
+        jobRole
+        contact {
+          phone
+          email
+          socials {
+            data {
+              attributes {
+                name
+                url
+                icon
+              }
+            }
+          }
+        }
+        information {
+          name
+          surname
+          location {
+            city
+            country
+          }
+          photo {
+            data {
+              attributes {
+                url
+                formats
+              }
+            }
+          }
+        }
+        interests {
+          name
+        }
+        softSkills {
+          name
+        }
+        cv {
+          data {
+            id
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

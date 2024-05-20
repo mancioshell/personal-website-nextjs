@@ -1,0 +1,40 @@
+query professionalExperience {
+  resume {
+    data {
+      id
+      attributes {
+        professionalExperiences {
+          data {
+            attributes {
+              title
+              company
+              description
+              startYear
+              endYear
+              location {
+                city
+                country
+              }
+              technologies {
+                data {
+                  attributes {
+                    name
+                    icon
+                  }
+                }
+              }
+              logo {
+                data {
+                  attributes {
+                    formats
+                    url
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
